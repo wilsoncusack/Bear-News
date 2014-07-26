@@ -16,7 +16,7 @@ Template[getTemplate('nav')].helpers({
   },
   logo_top: function(){
     return Math.floor((70-getSetting('logoHeight'))/2);
-  },  
+  },
   logo_offset: function(){
     return -Math.floor(getSetting('logoWidth')/2);
   },
@@ -54,6 +54,6 @@ Template[getTemplate('nav')].events({
     if(Meteor.user() && !$('account-link').exists()){
       $('#login-buttons-logout').before('<a href="/users/'+Meteor.user().slug+'" class="account-link button">View Profile</a>');
       $('#login-buttons-logout').before('<a href="/account" class="account-link button">Edit Account</a>');
-    }  
+    }
   }
 });

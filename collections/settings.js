@@ -47,11 +47,11 @@ settingsSchemaObject = {
   defaultEmail: {
     type: String,
     optional: true
-  },       
+  },
   scoreUpdateInterval: {
     type: Number,
     optional: true
-  }, 
+  },
   postInterval: {
     type: Number,
     optional: true
@@ -147,7 +147,7 @@ settingsSchemaObject = {
   notes: {
     type: String,
     optional: true
-  }                                                                                                                                                                                 
+  }
 };
 
 // add any extra properties to settingsSchemaObject (provided by packages for example)

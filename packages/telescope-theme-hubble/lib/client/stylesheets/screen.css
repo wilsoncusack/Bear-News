@@ -152,7 +152,8 @@ html, body, .outer-wrapper {
 
 /* line 8, ../sass/partials/_main.scss */
 body {
-  background: #e0f1f7; }
+  background: url("http://www.brown.edu/Facilities/Building_Brown/projects/ListingImage/4_MMA.jpg");
+  background-size: 100%; }
   @media screen and (max-width: 30em) {
     /* line 8, ../sass/partials/_main.scss */
     body {
@@ -531,7 +532,7 @@ body.pageslide-open {
 
 /* line 10, ../sass/modules/_nav.scss */
 .header {
-  background: #4e555d url("/img/bg-header.png") top center;
+  /*background: #4e555d url("/img/bg-header.png") top center;*/
   background-color: #4e555d;
   margin-bottom: 10px;
   position: relative;
@@ -540,7 +541,8 @@ body.pageslide-open {
   /* For IE 6/7 (trigger hasLayout) */
   *zoom: 1;
   padding: 0 20px;
-  z-index: 100; }
+  z-index: 100;
+  opacity: 0.8}
   /* line 3, ../sass/partials/_mixins.scss */
   .header:before, .header:after {
     content: "";
